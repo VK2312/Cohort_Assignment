@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+    height: 10%;
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+#logo{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs{
+    display: flex;
+    gap: 60px;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.effect1:hover{
+    color: gray;
+}
+
+#getStarted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    
+}
+
+#heroText{
+    height: 30%;
+    color: white;
+    text-align: center;
+    font-size: 160px;
+}
+
+.tab2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    gap: 70px;
+}
+
+.tab3{
+    background-color: rgb(37, 35, 35);
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.tab3:hover{
+    background-color: rgb(255, 123, 0);
+}
+
+.infoCard{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.cards{
+    width: 30%;
+    height: 100%;
+}
+
+#cardImg1{
+    margin-top: 30px;
+    height: 60%;
+    background-image: url('https://images.unsplash.com/photo-1556855810-ac404aa91e85?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.tech{
+    height: 30px;
+    width: 70px;
+    background-color: rgb(255, 123, 0);
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 4px;
+}
+
+.subline{
+    margin-left:20px;
+    font-size: 20px;
+}
+
+.date{
+    padding-top: 25px;
+    margin-left:20px;
+    font-size: 15px;
+    height: 100px;
+    font-weight: 100;
+    color: gray;
+}
+
+#cardImg2{
+    margin-top: 30px;
+    height: 60%;
+    background-image: url('https://images.unsplash.com/photo-1775809565721-7de570e9fb1c?q=80&w=1194&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+#cardImg3{
+    margin-top: 30px;
+    height: 60%;
+    background-image: url('https://images.unsplash.com/photo-1629908579970-aaffeb2a3659?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.marketing{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(224, 115, 13);
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    padding-top: 4px;
+}
